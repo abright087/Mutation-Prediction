@@ -1,11 +1,24 @@
-# Mutation Prediction Design Doc 
+# Mutation Prediction for Viral Proteomes (Design Document) 
 Group project for COMP 383/483 - mutation prediction for viral proteomes with Dr. Whelton Miller. 
+
 ## Overview
-Viruses mutate extremely frequently, their mutation rate being higher than any other organism. Their ability to quickly evolve has lead to efficient infection of their host, evading antiviral drugs. Due to this characteristic, it has proven difficult to hault the spread of a virus, as seen with the spread of Sars-CoV-2. There is an urgent demand for the accurate predictive tools for viral mutations in order to get ahead of the virus and stop the spread prior to mutation. A previous group has worked with Dr. Miller to create a machine learning model for mutation prediction based on hidden mutation patterns. However, the current model is only fit for the Sars-CoV-2 virus. We aim to expand this model to fit other viruses; Human Papillomavirus (HPV) and Epstein-Barr virus (EBV).
+- [ ] Viruses mutate extremely frequently, their mutation rate being higher than any other organism. Their ability to quickly evolve has lead to efficient infection of their host, evading antiviral drugs.
+- [ ] Due to this characteristic, it has proven difficult to hault the spread of a virus, as seen with the spread of Sars-CoV-2. There is an urgent demand for the accurate predictive tools for viral mutations in order to get ahead of the virus and stop the spread prior to mutation.
+- [ ] A previous group has worked with Dr. Miller to create a machine learning model for mutation prediction based on hidden mutation patterns. However, the current model is only fit for the Sars-CoV-2 virus. We aim to expand this model to fit other viruses; Human Papillomavirus (HPV) and Epstein-Barr virus (EBV).
 
-The current machine learning model was trained using the Sars-CoV-2 receptor binding domain. The tool extracts viral genomic sequences from NCBI and preprocesses the sequences to remove non-standard amino acids. The model uses a neural network with long short-term memory, convolutional neural network, and variational autoencoder to return mutational predicions with minimized loss function. To train the model, dimensionality was reduced, 4137 samples of Sars-CoV-2 variants were used in the training dataset, and hyperparameters were optimized. The performance of the model was evaluated in encoder dataframes. The mean-squared error and referencing predicted mutations with current literature were also used to evalute the model.
+### Current Machine Learning (ML) Model
+- [ ] The current machine learning model was trained using the Sars-CoV-2 receptor binding domain.
+- [ ] The tool extracts viral genomic sequences from NCBI and preprocesses the sequences to remove non-standard amino acids.
+- [ ] The model uses a neural network with long short-term memory, convolutional neural network, and variational autoencoder to return mutational predicions with minimized loss function.
+- [ ] To train the model, dimensionality was reduced, 4137 samples of Sars-CoV-2 variants were used in the training dataset, and hyperparameters were optimized.
+- [ ] The performance of the model was evaluated in encoder dataframes. The mean-squared error and referencing predicted mutations with current literature were also used to evalute the model.
 
-To expand the toolkit to be applicable for different viruses, we will begin by testing the current tool and evaluting the accuracy of mutation predicition for HPV and EBV. To retrain the model for these viruses, we will use incremental learning techniques with small batches of data, including a new training dataset with HPV and EBV variants. We can achieve this with scikit-learn via the partial_fit method. We will evalute the accuracy of the updated model, ensuring the mutation predicition is accurate for Sars-CoV-2, HPV, and EBV. Lastly, we will compile a summary of our project into a graphical output similar to a poster. If time allows, we will also revise the tool to make it more user friendly by reducing the lines of code necessary to use the tool. The development of this tool will allow for a proactive approach when designing theraputic approaches for viruses.
+#### Challenge with the Current ML Model
+- [ ] The current model has been trained with Sars-Cov-2 datasets and as such performs uniquely well with Sars-Cov-2 viral evolution. We however want to expand its capability to be applicable to other viral proteomes.
+- [ ] To expand the toolkit to be applicable for different viruses, we will begin by testing the current tool and evaluating the accuracy of mutation prediction for HPV and EBV. To retrain the model for these viruses, we will use incremental learning techniques with small batches of data, including a new training dataset with HPV and EBV variants.
+- [ ] We will achieve this with _**scikit-learn**_(https://scikit-learn.org/stable/), a python based machine learning model, via the _"partial_fit"_ method.
+- [ ] We will evaluate the accuracy of the updated model, ensuring the mutation prediction is accurate for Sars-CoV-2, HPV, and EBV. Lastly, we will compile a summary of our project into a graphical output similar to a poster.
+- [ ] If time allows, we will also revise the tool to make it more user-friendly by reducing the lines of code necessary to use the tool. The development of this tool will allow for a proactive approach when designing therapeutic approaches for viruses.
 
 ## Context
 
