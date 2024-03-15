@@ -9,6 +9,8 @@ To expand the toolkit to be applicable for different viruses, we will begin by t
 
 ## Context
 
+- [ ] Estimating the rate of evolution of viral proteomes using a machine learning approach will allow for the 
+
 ## Goals & Non-Goals
 Our main goal is to further develop a prediction mutation tool for viral proteomes by expanding the pre-existing model, which focuses only on the Sars-Cov-2 virus, to be generalized to more viruses, such as HPV and EBV. 
 - Goals
