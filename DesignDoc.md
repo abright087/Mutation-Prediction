@@ -30,12 +30,15 @@ Our main goal is to further develop a prediction mutation tool for viral proteom
   - Overall goal: adjust the current model to be applicable for various viruses by training the model with new proteomes and adjusting the parameters to improve accuracy
   - Obtain the mutations that are most likely biologically significant
   - Make the current tool more user-friendly
- 
+ ![11A](https://github.com/abright087/Mutation-Prediction/assets/57806377/ed296aad-de28-41dd-9414-d3ab4acad895)
+
 - Non-Goals
   - We will not focus on the quantity of mutation predictions returned, but rather the quality / accuracy of the predictions
   - We will not retrain the model from scratch since we want to build upon the pre-existing model, not create a new one
 ## Proposed Solution
 ![Project workflow](https://app.gemoo.com/share/image-annotation/627457715862605824?codeId=vzRZnagwb2Ala&origin=imageurlgenerator&card=627457713853534208)
+
+
 
 The main steps in our project involve the following:
 - [ ] _**Step 1 (Test and Evaluate the Model)**_
