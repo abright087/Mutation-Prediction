@@ -35,6 +35,7 @@ Our main goal is to further develop a prediction mutation tool for viral proteom
   - We will not focus on the quantity of mutation predictions returned, but rather the quality / accuracy of the predictions
   - We will not retrain the model from scratch since we want to build upon the pre-existing model, not create a new one
 ## Proposed Solution
+![Project workflow](https://app.gemoo.com/share/image-annotation/627457715862605824?codeId=vzRZnagwb2Ala&origin=imageurlgenerator&card=627457713853534208)
 
 The main steps in our project involve the following:
 - [ ] _**Step 1 (Test and Evaluate the Model)**_
