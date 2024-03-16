@@ -21,8 +21,8 @@ Group project for COMP 383/483 - mutation prediction for viral proteomes with Dr
 - [ ] If time allows, we will also revise the tool to make it more user-friendly by reducing the lines of code necessary to use the tool. The development of this tool will allow for a proactive approach when designing therapeutic approaches for viruses.
 
 ## Context
-The susceptibility of microbes, including viruses, to continuous evolution poses a unique challenge to efforts aimed at therapeutic interventions to combat their illicited infections. Although advances in Artificial Intelligence(AI) and Machine Learning(ML) has seen unique applications to particular fields of endeavor, their application in health 
-
+The susceptibility of microbes, including viruses, to continuous evolution poses a unique challenge to efforts aimed at therapeutic interventions to combat their illicited infections. Advances in Artificial Intelligence(AI) and Machine Learning(ML) has seen unique applications to dealing with currently pressing challenges, and in the context of health, its application in drug research and development offers interesting insights into how current and emerging infection(s) might be treated. 
+Although there are tools to predict viral mutations, a unique setback for most of them is that they are unable to predict mutation effectively across different viral strains. Here, we aim to further refine the efficiency of an already-existing tool such that it is able to predict mutation across different viral strains/species. 
 
 ## Goals & Non-Goals
 Our main goal is to further develop a prediction mutation tool for viral proteomes by expanding the pre-existing model, which focuses only on the Sars-Cov-2 virus, to be generalized to more viruses, such as HPV and EBV. 
