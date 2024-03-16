@@ -15,12 +15,14 @@ Group project for COMP 383/483 - mutation prediction for viral proteomes with Dr
 
 #### Challenge with the Current ML Model
 - [ ] The current model has been trained with Sars-Cov-2 datasets and as such performs uniquely well with Sars-Cov-2 viral evolution. We however want to expand its capability to be applicable to other viral proteomes.
-- [ ] To expand the toolkit to be applicable for different viruses, we will begin by testing the current tool and evaluating the accuracy of mutation prediction for HPV and EBV. To retrain the model for these viruses, we will use incremental learning techniques with small batches of data, including a new training dataset with HPV and EBV variants.
+- [ ] To expand the toolkit to be applicable to different viruses, we will begin by testing the current tool and evaluating the accuracy of mutation prediction for HPV and EBV. To retrain the model for these viruses, we will use incremental learning techniques with small batches of data, including a new training dataset with HPV and EBV variants.
 - [ ] We will achieve this with _**scikit-learn**_(https://scikit-learn.org/stable/), a python based machine learning model, via the _"partial_fit"_ method.
 - [ ] We will evaluate the accuracy of the updated model, ensuring the mutation prediction is accurate for Sars-CoV-2, HPV, and EBV. Lastly, we will compile a summary of our project into a graphical output similar to a poster.
 - [ ] If time allows, we will also revise the tool to make it more user-friendly by reducing the lines of code necessary to use the tool. The development of this tool will allow for a proactive approach when designing therapeutic approaches for viruses.
 
 ## Context
+The susceptibility of microbes, including viruses, to continuous evolution poses a unique challenge to efforts aimed at therapeutic interventions to combat their illicited infections. Although advances in Artificial Intelligence(AI) and Machine Learning(ML) has seen unique applications to particular fields of endeavor, their application in health 
+
 
 ## Goals & Non-Goals
 Our main goal is to further develop a prediction mutation tool for viral proteomes by expanding the pre-existing model, which focuses only on the Sars-Cov-2 virus, to be generalized to more viruses, such as HPV and EBV. 
